@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lou Jiamin Homepage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a  class="logo" id="intro"><strong>2024 Jiamin Lou</strong> Email:ljmuscy@gmail.com</a>
+
+								</header>
+
+							<!-- Banner -->
+								<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Data visualization for amusement park operation</h1>
+									</header>
+
+									<span class="image main"><img src="images/datav.png" alt="" /></span>
+									
+									<p>This visualization project mainly proposes relevant suggestions for the current operation of the amusement park through passenger flow time series changes, communication networks among personnel, the popularity of various projects, and trajectory inference of people without ID. This was my end-of-term project for the data visualization course during my undergraduate studies, and I achieved the highest score in the entire department for this course.</p>
+									<h2 id="content">Passenger flow time series changes</h2>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<span class="image fit" style="display: flex; justify-content: center;">
+												<img src="images/data_map.gif" alt="" style="width:100%;" />
+											</span>
+										</div>
+										<div class="col-6 col-12-small" style="margin-left:0; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+											<h3 style="align-self: flex-start;">Thinking process</h3>
+											<p>Engaging in the assessment of park security, I started by contrasting the actual number of attendees against the ideal figure. To further dissect the issue, I gathered data on the park's foot traffic at different timings, visualizing the information in a spatiotemporal map. Upon close examination, I noted an abnormal occurrence - three individuals were found within the park premises even though it was closed on Sundays. This observation led me to conclude that the existing security measures were inadequate. Consequently, I put forth a recommendation to augment the checks during closures, ensuring the park is vacated properly.</p>
+										</div>
+									</div>
+
+									<hr class="major" />
+
+									<h2 id="content">Communication networks among personnel</h2>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<span class="image fit" style="display: flex; justify-content: center;">
+												<img src="images/data_net.gif" alt="" style="width:100%;" />
+											</span>
+										</div>
+										<div class="col-6 col-12-small" style="margin-left:0; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+											<h3 style="align-self: flex-start;">Thinking process</h3>
+											<p>I initiated a communication analysis based on the statistical mapping of point-to-point distributions. The goal was to delineate the communication links between tracked personnel and park-goers. I first constructed a graph, followed by data extraction and model driving. The results were then displayed. By clicking on a node, any related nodes would become highlighted, allowing me to visually inspect the communication lines and thus, understand the communication flow.</p>
+										</div>
+									</div>
+
+                                    <hr class="major" />
+
+									<h2 id="content">Trajectory inference of people without ID</h2>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<span class="image fit" style="display: flex; justify-content: center;">
+												<img src="images/data_track.gif" alt="" style="width:100%;" />
+											</span>
+										</div>
+										<div class="col-6 col-12-small" style="margin-left:0; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+											<h3 style="align-self: flex-start;">Thinking process</h3>
+											<p>The challenge involves establishing the path of a visitor lacking identification. To solve this, I would reverse engineer the situation by disregarding typical visitor pathways and focusing instead on those of the visitor's eight acquaintances. The first part of the resolution process involves sifting through data using Python to extract relevant information. Subsequently, the filtered data is used to visualize the anonymous visitor's likely route, providing a coherent presentation of the results.</p>
+										</div>
+									</div>
+
+									<hr class="major" />
+
+									<h2 id="content">Popularity of various projects</h2>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<span class="image fit" style="display: flex; justify-content: center;">
+												<img src="images/data_rain.gif" alt="" style="width:100%;" />
+											</span>
+										</div>
+										<div class="col-6 col-12-small" style="margin-left:0; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+											<h3 style="align-self: flex-start;">Thinking process</h3>
+											<p>The objective here focuses on enhancing the distribution of venues in the amusement park. This involves examining the volume of attendees across various periods and at different locations, identifying areas of inadequate distribution, and proposing necessary adjustments. This process utilizes a heat map where foot traffic density can be determined based on the color gradients. Upon analysis, I observed that the haunted house has a consistently high demand throughout the day. However, it remains the sole horror-themed attraction in the entire park. Consequently, I propose either the expansion of the current haunted house or the introduction of new horror-themed attractions, provided the cost implications are favorable.</p>
+										</div>
+									</div>
+
+								</section>
+
+
+					
+
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="project_sign.html">An intelligent sign language learning platform</a></li>
+										<li><a href="project_coursed.html">Mathematics and programming course design</a></li>
+										<li><a href="project_dialect.html">Dialect learning & entertainment short video app</a></li>
+										<li><a href="project_datav.html">Data visualization for amusement park operation</a></li>
+									</ul>
+								</nav>
+						</div>
+					</div>
+
+				    
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
